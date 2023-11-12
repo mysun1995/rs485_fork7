@@ -87,7 +87,7 @@ module rs485_for_A7(
     .read100            (32'h0000_0123),
     .read101            (32'h0000_0123),
     .read102            (32'h0000_0123),
-    .write00            (16'h00_0a    ),//float
+    .write00            (16'h00_aa    ),//float
     .write01            (16'h00_0b    ),//float
     .write02            (16'h00_0c    ),//float
     .write03            (16'h00_0d    ),//float
